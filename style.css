@@ -69,7 +69,7 @@ img{
 .form-box .progress{
     position: relative;
     padding: 1em;
-
+    background: url(/assets/images/bg-sidebar-desktop.svg);
 }
 
 /* progress-steps */
@@ -126,7 +126,17 @@ form > div p{
     margin-bottom: 2em;
 }
 
+form > div > div:not(.checkbox){
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
 
+/* form-two  -- form-three */
+
+.form-two, .form-three{
+    display: none;
+}
 
 
 
