@@ -81,6 +81,26 @@ img{
     gap: 2em;
 }
 
+.progress ul.progress-steps li{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.progress ul.progress-steps li > span{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    z-index: 1;
+}
 
 
 
