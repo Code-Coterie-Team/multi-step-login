@@ -111,6 +111,20 @@ img{
 
 /* Form  */
 
+.form-box form{
+    width: 100%;
+    padding: 3em 1em;
+}
+
+form > div {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form > div p{
+    color: rgb(109, 102, 102);
+    margin-bottom: 2em;
+}
 
 
 
@@ -130,5 +144,9 @@ img{
 
     .progress ul.progress-steps{
         flex-direction: column;
+    }
+
+    .form-box form{
+        padding: 3em;
     }
 }
