@@ -48,3 +48,19 @@ img{
     max-width: 100%;
 }
 
+/* container */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    border: 8px solid var(--secoundary-color);
+    border-radius: 15px;
+    background-color: var(--secoundary-color);
+}
