@@ -103,6 +103,19 @@ img{
 }
 
 
+.progress ul.progress-steps li.active > span{
+    color: black;
+    border: 4px solid var(--secoundary-color);
+    z-index: 1;
+}
+
+/* Form  */
+
+
+
+
+
+
 
 
 
