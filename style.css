@@ -138,6 +138,21 @@ form > div > div:not(.checkbox){
     display: none;
 }
 
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.btn-group [class*="btn-"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 1em 2.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 
 
